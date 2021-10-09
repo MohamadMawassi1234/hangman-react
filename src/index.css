@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.letters {
+  display: inline;
+  padding-bottom: 2px;
+  border-bottom: 3px solid blue;
+  margin: 0 5px;
+}
+
+.letter {
+  display: inline;
+}
+
+.wrong-letters {
+  display: inline;
+  padding-bottom: 2px;
+  border-bottom: 3px solid red;
+  margin: 0 5px;
+}
+
+.wrong-letter {
+  display: inline;
+}
+
+.host-header {
+  color: rebeccapurple;
+}
+
+.guesser-header {
+  color: darkgreen;
+}
+
+.host-victory {
+  color: red;
+}
+
+.guesser-victory {
+  color: blue;
+}
